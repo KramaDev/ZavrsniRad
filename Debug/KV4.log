@@ -1,0 +1,5 @@
+﻿  Funkcija.c
+C:\Users\student\source\repos\KV4\Funkcija.c(417,67): warning C4129: 'P': unrecognized character escape sequence
+C:\Users\student\source\repos\KV4\Funkcija.c(503,8): warning C4013: 'getch' undefined; assuming extern returning int
+C:\Users\student\source\repos\KV4\Funkcija.c(226): warning C4715: 'pregledSvihPacijenata': not all control paths return a value
+  KV4.vcxproj -> C:\Users\student\source\repos\KV4\Debug\KV4.exe

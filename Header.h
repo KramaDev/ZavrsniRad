@@ -54,6 +54,7 @@ int pregledSvihPacijenata();
 int provjeraBrojaPacijenata();
 void trazenjePacijenata();
 void dodajPacijentaUbazu();
+
 void nazivOdabranogIzbornika(const char* tekst);
 void ulaznaPoruka();
 int provjeraImena(const char* ime);

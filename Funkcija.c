@@ -114,10 +114,10 @@ void trazenjePacijenata()
 		printf("\n\t\t\tGreska prilikom otvaranja datoteke!\n");
 		exit(1);
 	}
-	printf("\n\n\t\t\tUnesite ID trazenog pacijenta:");
+	printf("\n\n\t\t\tUnesite MBO trazenog pacijenta:");
 	fflush(stdin);
 	scanf("%f", &mboPacijenta);
-	while (fread(&citanjeTrazenogPacijenta, sizeof(citanjeTrazenogPacijenta), 1, fp))  //izvrsava se citanje za odabrani id pacijenta
+	while (fread(&citanjeTrazenogPacijenta, sizeof(citanjeTrazenogPacijenta), 1, fp))  //izvrsava se citanje za odabrani mbo pacijenta
 	{
 		if (citanjeTrazenogPacijenta.mbo == mboPacijenta)
 		{
